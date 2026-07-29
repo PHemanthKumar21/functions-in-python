@@ -9,26 +9,16 @@ check(*b)
 c={6,7,8,9,10}
 check(*c)
 d={"name":"hemanth","city":"vja"}
-check(*d)'''
+check(*d)
 
-
-
-
-
-def check1(*a):
-    d=2 #creating variable
-    print(a)
-    print(type(a))
-    for i in a:
-        if type(i) in (int,float):
-            d=d+i
-            print(d)
-check1()
-check1(2,4,5,6,7)
-check1(1,2,3,4.5,2.5)
-check1(3,4,2,5,3.6,2.4,"hemanth")
-
-
-
-
-
+OUPUT:
+()
+<class 'tuple'>
+(2, 3, 4, 5, 6, 7)
+<class 'tuple'>
+(4, 6, 8, 9, 0)
+<class 'tuple'>
+(6, 7, 8, 9, 10)
+<class 'tuple'>
+('name', 'city')
+<class 'tuple'>'''
